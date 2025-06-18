@@ -12,7 +12,10 @@ module tb_Bcd_to_7segment;
 Bcd_to_7segment uut (.a(a), .b(b), .c(c), .d(d), .e(e), .f(f), .g(g), .A(A), .B(B), .C(C), .D(D));
 initial begin 
   // Initialize Inputs 
-  A = B=C=D=0; 
+  A = 0;
+  B= 0;
+  C= 0;
+  D=0; 
   #100; 
  end 
  always begin 
